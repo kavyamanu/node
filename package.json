@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learning node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavyamanu/node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "kavya manupati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kavyamanu/node/issues"
+  },
+  "homepage": "https://github.com/kavyamanu/node#readme"
+}
