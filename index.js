@@ -6,7 +6,10 @@ app.get("/", (req, res) => {
     res.send("Hello world");
 })
 
-app.get("/api", (req,res)=> {
-    res.send("this is so cool")
+app.get("/api/courses/:id", (req,res)=> {
+    res.send(req.params)
 })
-app.listen(3000, ()=>{console.log("listening to port 3000...")})
+const port = process.env.PORT || 3000
+app.listen(port, () => {
+  console.log(`listening to port ${port}...`);
+});
