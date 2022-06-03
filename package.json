@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/kavyamanu/node/issues"
   },
-  "homepage": "https://github.com/kavyamanu/node#readme"
+  "homepage": "https://github.com/kavyamanu/node#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.4"
+  }
 }
